@@ -1,0 +1,14 @@
+/* External CSS  */
+@import url(/css/vendor/slider.css);
+@import url(/css/vendor/bootstrap-icons.css);
+
+
+*{
+    margin: 1px auto;
+    padding: 2px auto;
+    font-family: Black Sans;
+}
+
+/* fonts  */
+@import url('https://fonts.cdnfonts.com/css/black-sans');
+
