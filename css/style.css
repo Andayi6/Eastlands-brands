@@ -12,3 +12,6 @@
 /* fonts  */
 @import url('https://fonts.cdnfonts.com/css/black-sans');
 
+#space{
+    min-height: 50px;
+}
