@@ -17,6 +17,10 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <!-- Bootstrap icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     
@@ -37,10 +41,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Services</a>
+              <a class="nav-link active" aria-current="page" href="#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Branding</a>
@@ -97,71 +101,266 @@
 
      </div>
       <!-- Content  -->
-       <div class="container-fluid">
+      <!-- About  -->
+       <div class="container" id="about">
         <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
+          <div class="col text-center mb-5">
+            
+             <h1>About</h1>
+      <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
           </div>
         </div>
        </div>
-
-       <div class="container" id="space">
-
-       </div>
-       <div class="container-fluid contacts">
-          <h2>Contacts</h2>
-       </div>
-
-       <div class="container contact-form">
-        <div class="contact-image">
-            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-        </div>
-        <form method="post">
-            <h3>Drop Us a Message</h3>
-           <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-                    </div>
-                </div>
+        
+      <!-- Services Cards  -->
+      <section class="wrapper">
+        <div class="container" id="services">
+          <div class="row">
+            <div class="col text-center mb-5">
+               <h1>Our Services</h1>
+        <p class="lead">Lorem ipsum dolor sit amet at enim hac integer volutpat maecenas pulvinar. </p>
             </div>
-        </form>
-</div>
+          </div>
+        <div class="row">
+       <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+         
+         <div class="card text-dark card-has-bg click-col" style="background-image:url('https://api.unsplash.com/search/collections?page=1&query=office');">
+               <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="design.html">Web Developmet</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="images/logo.png" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div>
+              
+         
+         
+            </div>
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4"><div class="card text-dark card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+               <img class="card-img d-none" src="images/Sakaja.png" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="design.html">Creative Manner</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2025</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="images/logo.png" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div></div>
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4"><div class="card text-dark card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+               <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Design Studio Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="https://assets.codepen.io/460692/internal/avatars/users/default.png?format=auto&version=1688931977&width=80&height=80" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div></div>
+         
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4"><div class="card text-dark card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+               <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt=" Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">UI/UX Design Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="images/logo.png" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div></div>
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4"><div class="card text-dark card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+               <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="https://assets.codepen.io/460692/internal/avatars/users/default.png?format=auto&version=1688931977&width=80&height=80" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div></div>
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4"><div class="card text-dark card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+               <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?">
+              <div class="card-img-overlay d-flex flex-column">
+               <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Creative Manner Design Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                 <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                 <div class="media">
+        <img class="mr-3 rounded-circle" src="https://assets.codepen.io/460692/internal/avatars/users/default.png?format=auto&version=1688931977&width=80&height=80" alt="Generic placeholder image" style="max-width:50px">
+        <div class="media-body">
+          <h6 class="my-0 text-dark d-block">Oz Coruhlu</h6>
+           <small>Director of UI/UX</small>
+        </div>
+      </div>
+                </div>
+              </div>
+            </div></div>
+        
+      </div>
+        
+      </div>
+      </section>
+      
+      <!-- Services Cards  -->
+       
+       <div class="container-fluid" id="about">
 
+       </div>
+
+       <!-- Contact  -->
+       <div class="contacts container">
+          Contact
+       </div>
       <!-- Content  -->
+
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>What <b>our customers</b> are saying</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>   
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/1.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/2.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                            <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>			
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/3.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                            <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/4.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                            <p class="overview"><b>Mary Saveley</b>, Web Designer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>			
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/5.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+                            <p class="overview"><b>Martin Sommer</b>, UX Analyst</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="media">
+                        <img src="/examples/images/clients/6.jpg" class="mr-3" alt="">
+                        <div class="media-body">
+                          <div class="testimonial">
+                            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+                            <p class="overview"><b>John Williams</b>, Web Developer</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>			
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
 
 <!-- footer  -->
 
-  <footer class="text-white text-center text-lg-start bg-secondary">
+  <footer class="text-white text-center text-lg-start bg-secondary" id="footer">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
@@ -261,7 +460,7 @@
 
 <!-- btn-floating  -->
 
-    <button onclick="window.scroll({top: 0, left: 0, behavior: 'smooth' });" class="bottom-0 right-0 m-3 text-white icon icon-shape position-fixed bton scroll-top" style="box-shadow: 0 0 14px rgba(0,0,0,.4); z-index: 1000"><span style="font-size: 1.3em; font-weight: 600;" class="fa fa-angle-double-up"></span>
+    <button onclick="window.scroll({top: 0, right: 0, behavior: 'smooth' });" class="bottom-0 right-0 m-3 text-white icon icon-shape position-fixed bton scroll-top" style="box-shadow: 0 0 14px rgba(0,0,0,.4); z-index: 1000"><span style="font-size: 1.3em; font-weight: 600;" class="fa fa-angle-double-up"></span>
     </button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

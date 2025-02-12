@@ -1,6 +1,7 @@
 /* External CSS  */
 @import url(/css/vendor/slider.css);
 @import url(/css/vendor/bootstrap-icons.css);
+@import "cards";
 
 // Variables 
 $maincolor : #FCB017;
@@ -20,6 +21,7 @@ $Secondcolor : #05273A;
 }
 .contacts{
     min-height: 250px;
+    margin-top: 10%;
     background:$Secondcolor;
 }
 .bton{
@@ -29,9 +31,6 @@ $Secondcolor : #05273A;
     background: $maincolor;
     border-radius: 50%;
     border: none;
-    &::before{
-
-    }
     &:hover{
         background: #fff;
         color: $maincolor;
@@ -49,56 +48,14 @@ $Secondcolor : #05273A;
         border: none;
     }
 }
-
-// Contact 
-.contact-form{
-    background: #fff;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    width: 70%;
-}
-.contact-form .form-control{
-    border-radius:1rem;
-}
-.contact-image{
-    text-align: center;
-    img{
-    border-radius: 6rem;
-    width: 11%;
-    margin-top: -3%;
-    transform: rotate(29deg);
-    }
+// about
+#about{
+    min-height: 300px;
+    //background: #000;
 }
 
-.contact-form form{
-    padding: 14%;
+#footer{
+    margin-top: 50px;
 }
-.contact-form form .row{
-    margin-bottom: -7%;
-}
-.contact-form h3{
-    margin-bottom: 8%;
-    margin-top: -10%;
-    text-align: center;
-    color: #0062cc;
-}
-.contact-form .btnContact {
-    width: 50%;
-    border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
-    background: #dc3545;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-}
-.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: #0062cc;
-    border: none;
-    cursor: pointer;
-}
+// Testimonials
+
