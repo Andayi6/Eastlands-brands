@@ -26,23 +26,48 @@ $Secondcolor : #05273A;
     margin-top: 10%;
     background:$Secondcolor;
 }
-.bton{
-    transition: .4s all !important;
-    height: 4rem;
-    width: 4rem;
-    background: $maincolor;
-    border-radius: 50%;
-    border: none;
+// .bton{
+//     transition: .4s all !important;
+//     height: 4rem;
+//     width: 4rem;
+//     background: $maincolor;
+//     border-radius: 50%;
+//     border: none;
+//     &:hover{
+//         background: #fff;
+//         color: $maincolor;
+//         i{
+//             &:hover{
+//                 color: $Secondcolor;
+//             }
+//         }
+//     }
+// }
+
+// Floating Button 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  animation: 3s linear .1s colorIt;
+     .my-float{
+    margin-top:22px;
+    transition-duration: 300ms;
     &:hover{
-        background: #fff;
-        color: $maincolor;
-        i{
-            &:hover{
-                color: $Secondcolor;
-            }
-        }
+      transform: translateY(-15px);
     }
+  }
 }
+
+
+
 .btn{
     background: $Secondcolor;
     &:hover{
@@ -61,6 +86,7 @@ $Secondcolor : #05273A;
 .partners {
     margin-top: 40px;
     padding: 10px;
+    
   }
   
   @-webkit-keyframes slideleft {
@@ -94,12 +120,19 @@ $Secondcolor : #05273A;
   .partners-img-container .partners-img {
     height: 100%;
     width: 200%;
-    background: transparent url(https://squeeze-pics.s3-us-west-2.amazonaws.com/v2/assets/Web+Assets/heroes/Auto-insurance/insurancelogos.jpg) repeat-x 50% 0;
+    background: transparent url(/images/partners.png) repeat-x 50% 0;
     -webkit-animation: slideleft 5000s linear infinite;
     animation: slideleft 5000s linear infinite;
     cursor: grab;
   }
-
+.partners-img {
+  filter: saturate(0);
+  opacity: .75;
+  &:hover{
+    filter: saturate(1);
+    opacity: 1;
+  }
+}
 #footer{
     margin-top: 50px;
 }
