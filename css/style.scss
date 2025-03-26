@@ -1,18 +1,27 @@
 /* External CSS  */
-@import url(/css/vendor/slider.css);
+@import url(/css/vendor/slider.scss);
 @import url(/css/vendor/bootstrap-icons.css);
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url("https://cdn.jsdelivr.net/npm/mdb-ui-kit/css/mdb.min.css");
-@import "cards";
+@import "slider","nav","cards";
 
 // Variables 
 $maincolor : #FCB017;
 $Secondcolor : #05273A;
+$grey : #F5F5F5;
+$teal : #1F4F60;
+$coral : #F47E4D;
+$beige : #FFE4B2;
+$limegreen : #8AC926;
 
+.bg-dark{
+  background: $teal !important;
+}
 *{
-    margin: 1px auto;
-    padding: 2px auto;
+    margin: 0px auto;
+    padding: 0px auto;
     font-family: Black Sans;
+    scroll-behavior: smooth;
 }
 
 /* fonts  */
@@ -26,23 +35,6 @@ $Secondcolor : #05273A;
     margin-top: 10%;
     background:$Secondcolor;
 }
-// .bton{
-//     transition: .4s all !important;
-//     height: 4rem;
-//     width: 4rem;
-//     background: $maincolor;
-//     border-radius: 50%;
-//     border: none;
-//     &:hover{
-//         background: #fff;
-//         color: $maincolor;
-//         i{
-//             &:hover{
-//                 color: $Secondcolor;
-//             }
-//         }
-//     }
-// }
 
 // Floating Button 
 .float{
@@ -51,7 +43,7 @@ $Secondcolor : #05273A;
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#0C9;
+	background-color: $maincolor;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
