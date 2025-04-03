@@ -5,6 +5,48 @@
 @import url("https://cdn.jsdelivr.net/npm/mdb-ui-kit/css/mdb.min.css");
 @import "slider","nav","cards","button","faqs";
 
+// Fonts 
+@font-face {
+  font-family: 'Black Sans';
+  src: url('../css/vendor/fonts/black-sans-bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Black Sans Condensed';
+  src: url('../css/vendor/fonts/black-sans-condensed-bold-.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Black Sans Condensed';
+  src: url('../css/vendor/fonts/black-sans-condensed-medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Black Sans Light';
+  src: url('../css/vendor/fonts/black-sans-light.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Black Sans';
+  src: url('../css/vendor/fonts/black-sans-semi-bold.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Black Sans';
+  src: url('../css/vendor/fonts/black-sans-thin.otf') format('opentype');
+  font-weight: 100;
+}
+
+h1 {
+  // font-family: 'Black Sans Condensed', sans-serif;
+  // font-weight: bold;
+}
+
 // Variables 
 $maincolor : #FCB017;
 $Secondcolor : #05273A;
@@ -14,6 +56,7 @@ $coral : #F47E4D;
 $beige : #FFE4B2;
 $limegreen : #8AC926;
 
+
 .bg-dark{
   background: $teal !important;
 }
@@ -22,10 +65,8 @@ $limegreen : #8AC926;
     padding: 0px auto;
     font-family: Black Sans;
     scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
 }
-
-/* fonts  */
-@import url('https://fonts.cdnfonts.com/css/black-sans');
 
 #space{
     min-height: 50px;
@@ -58,14 +99,6 @@ $limegreen : #8AC926;
   }
 }
 
-// Dropdown 
-// .dropbtn {
-  // background-color: #04AA6D;
-  // color: white;
-  // padding: 16px;
-  // font-size: 16px;
-  // border: none;
-// }
 
 .dropdown {
   position: relative;
