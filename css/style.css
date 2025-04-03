@@ -690,6 +690,7 @@ buttn:hover .play {
   max-width: 600px;
   min-height: 300px;
   box-shadow: 5px 5px 2cap #888888;
+  transition-delay: 1400ms;
 }
 
 .faqcontainer img {
@@ -755,6 +756,10 @@ buttn:hover .play {
   src: url("../css/vendor/fonts/black-sans-thin.otf") format("opentype");
   font-weight: 100;
 }
+h1 {
+  font-family: "Black Sans", sans-serif;
+}
+
 .bg-dark {
   background: #1F4F60 !important;
 }
@@ -762,7 +767,7 @@ buttn:hover .play {
 * {
   margin: 0px auto;
   padding: 0px auto;
-  font-family: Black Sans;
+  font-family: "Black Sans";
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
 }
@@ -787,7 +792,7 @@ buttn:hover .play {
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 2px 3px rgba(153, 153, 153, 0);
   animation: 3s linear 0.1s colorIt;
 }
 .float .my-float {

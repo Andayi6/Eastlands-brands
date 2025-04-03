@@ -43,7 +43,7 @@
 }
 
 h1 {
-  // font-family: 'Black Sans Condensed', sans-serif;
+  font-family: 'Black Sans', sans-serif;
   // font-weight: bold;
 }
 
@@ -63,7 +63,7 @@ $limegreen : #8AC926;
 *{
     margin: 0px auto;
     padding: 0px auto;
-    font-family: Black Sans;
+    font-family: 'Black Sans';
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
 }
@@ -88,7 +88,7 @@ $limegreen : #8AC926;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #99999900;
   animation: 3s linear .1s colorIt;
      .my-float{
     margin-top:22px;
